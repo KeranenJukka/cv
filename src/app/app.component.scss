@@ -1,0 +1,265 @@
+
+#navbar {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    transition: background-color 2s;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+
+
+
+#frontpage {
+    color: var(--color2);
+    
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+
+#navbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link {
+    
+    
+    color: var(--color2);
+    transition: opacity 0.5s;
+}
+
+#currentwrap {
+    z-index: 1000;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    position: fixed;
+    right: 25px;
+    bottom: 45%;
+}
+
+
+
+#currentpage {
+    padding: 0;
+    margin:0;
+    transform-origin: 100% 0%;
+    transform: rotate(90deg);
+}
+
+#mynamewrap {
+    z-index: 1000;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    position: fixed;
+    right: 25px;
+    bottom: 0;
+}
+
+#myname {
+    padding: 0;
+    margin:0;
+    transform-origin: 100% 0%;
+    transform: rotate(90deg);
+
+}
+
+#arrow {
+    position: fixed;
+    bottom: 0;
+    left: 25px;
+    font-size: 2rem;
+}
+
+
+#hamburger {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 1500;
+    transition: transform 0.5s;
+}
+
+.ham {
+    width: 20px;
+    height: 4px;
+    background: var(--color2);
+    margin: 3px;
+}
+
+#headerbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    
+    
+}
+
+.inbox {
+    border: solid var(--color2) 1px;
+    opacity: 0.15;
+    
+}
+
+#animationbox {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+
+}
+
+#circle {
+    position: relative;
+    top: -50px;
+    left: -50px;
+    height: 40px;
+    width: 40px;
+    border: solid var(--color2) 1px;
+    border-radius: 50px;
+}
+
+#mobilemenu {
+
+    font-family: 'Anton', sans-serif;
+
+    letter-spacing: 0.1rem;
+
+    position:fixed;
+    right: 0;
+    width: 0%;
+    height: 0vh;
+    background: var(--color1);
+    z-index: 1200;
+    transition: width 1s, height 1s;
+    display: flex;
+    align-items: center;
+    border-left: solid var(--color2) 2px;
+    border-bottom: solid var(--color2) 2px;
+
+    
+}
+
+#mobilemenu ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
+#mobilemenu ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: var(--color2);
+    
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#mobilemenu a {
+    text-decoration: none;
+}
+
+#links2 {
+    visibility: hidden;
+
+    }
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+    @media (max-width: 1400px) {
+
+        #navbar ul {
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        #hamburger {
+            top: 12px;
+            right: 10px;
+        }
+
+        #currentpage {
+            display: none;
+        }
+
+        #navbar {
+            width: 100%;
+            background: var(--color1);
+            border-bottom: solid var(--color2) 1px;
+        }
+
+        .link {
+            display: none;
+        }
+
+        #arrow {
+            display: none;
+        }
+
+        #myname {
+            display: none;
+        }
+
+
+    }
+
+
+    /*---------------------------------------------------*/
+
+    @media (max-width: 1100px) {
+
+
+
+
+
+     }
+
+
+         /*---------------------------------------------------*/
+
+    @media (max-width: 750px) {
+
+        #mobilemenu ul li {
+
+            font-size: 2rem;
+
+        }
+
+
+
+    }
+

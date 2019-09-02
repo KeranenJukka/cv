@@ -1,0 +1,227 @@
+#empty {
+  height: 0px;
+}
+#pagewrap {
+  position: relative;
+  z-index: 100;
+}
+#homewrap {
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#homewelcomewrap {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#homewelcome {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+#hometextwrap {
+  height: auto;
+  z-index: 100;
+}
+#hometitle {
+  font-size: 6rem;
+}
+#hometitletext {
+  font-size: 1.5rem;
+}
+#homeme {
+  position: relative;
+  z-index: 50;
+  bottom: 40px;
+  left: -50px;
+  width: 100%;
+  max-width: 250px;
+  transform: rotate(7deg);
+  filter: grayscale(100%);
+}
+#mewrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#mewrap2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#metitle {
+  height: auto;
+}
+#metitleh2 {
+  font-size: 5rem;
+}
+#metext {
+  font-size: 1.1rem;
+}
+#skillswrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#skillstext {
+  margin: 0 auto;
+  max-width: 900px;
+}
+#skillstitle {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+#skillstext h3 {
+  font-size: 1.5rem;
+}
+#skillstext p {
+  font-size: 1.1rem;
+}
+#cvwrap {
+  height: auto;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#cvtext {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+#cvtitle {
+  font-size: 3rem;
+}
+.jobtext {
+  font-size: 1.1rem;
+  padding-bottom: 15px;
+}
+#education h3 {
+  font-size: 2.5rem;
+}
+#interestswrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#interestswrap2 {
+  margin: 0 auto;
+  max-width: 900px;
+}
+#intereststitle {
+  font-size: 4rem;
+}
+#intereststext {
+  font-size: 1.2rem;
+}
+#contactwrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#contacttext {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+@media (max-width: 1400px) {
+  .pagelink {
+    position: relative;
+    bottom: 50px;
+  }
+  #empty {
+    width: 100%;
+    height: 50px;
+  }
+  #homewelcome {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+  }
+  #homeme {
+    grid-row-start: 1;
+    bottom: 0px;
+    left: 0px;
+    margin: 0 auto;
+    bottom: -20px;
+    max-width: 230px;
+  }
+  #hometextwrap {
+    text-align: center;
+  }
+  #hometitle {
+    font-size: 5.5rem;
+  }
+  #hometitletext {
+    font-size: 1.5rem;
+  }
+  #metitleh2 {
+    font-size: 4.5rem;
+  }
+  #skillstitle {
+    font-size: 3.5rem;
+  }
+  #skillstext h3 {
+    font-size: 1.4rem;
+  }
+  #cvtitle {
+    font-size: 3rem;
+  }
+  #education h3 {
+    font-size: 2rem;
+  }
+  #intereststitle {
+    font-size: 3rem;
+  }
+  #intereststext {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 750px) {
+  #homeme {
+    max-width: 200px;
+  }
+  #hometitle {
+    font-size: 4rem;
+  }
+  #hometitletext {
+    font-size: 1.4rem;
+  }
+  #metitleh2 {
+    font-size: 3rem;
+  }
+  #skillstitle {
+    font-size: 3rem;
+  }
+  #skillstext h3 {
+    font-size: 1.3rem;
+  }
+  #cvtitle {
+    font-size: 2.5rem;
+  }
+  #education h3 {
+    font-size: 2rem;
+  }
+  #intereststitle {
+    font-size: 2.5rem;
+  }
+  #intereststext {
+    font-size: 1.2rem;
+  }
+  #contacttext {
+    font-size: 1.2rem;
+  }
+}

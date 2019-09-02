@@ -1,21 +1,69 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+
+
+
+    <nav id="navbar">
+        <ul>
+            <a href="#home-link"><li id="frontpage">JK</li></a>
+            <a href="#me-link"><li class="link">Minä</li></a>
+            <a href="#skills-link"><li class="link">Taidot</li></a>
+            <a href="#cv-link"><li class="link">CV</li></a>
+            <a href="#interests-link"><li class="link">Kiinnostukset</li></a>
+            <a href="#contact-link"><li class="link">Yhteys</li></a>
+        </ul>
+    </nav>
+
+    <div id="currentwrap">
+    
+        <p id="currentpage">{{current}}</p>
+    
+    </div>
+
+    <div id="mynamewrap">
+    
+        <p id="myname">Jukka Keränen</p>
+    
+    </div>
+
+    <p id="arrow">&#8595;</p>  
+
+    <div (click)="menu()" id="hamburger">
+        <div class="ham"></div>
+        <div class="ham"></div>
+        <div class="ham"></div>
+    </div>
+
+
+    <div id="headerbox">
+        <div class="inbox"></div>
+        <div class="inbox"></div>
+        <div class="inbox"></div>
+
+        <div class="inbox"></div>
+        <div class="inbox"></div>
+        <div class="inbox"></div>
+
+        <div class="inbox"></div>
+        <div class="inbox"></div>
+        <div class="inbox"></div>
+    </div>
+
+
+   <div id="animationbox">
+    <div id="circle"></div>
+   </div>
+
+    <nav id="mobilemenu">
+
+            <ul id="links2">
+                    <a (click)="menu()" href="#home-link"><li class="link2">JK</li></a>
+                    <a (click)="menu()" href="#me-link"><li class="link2">Minä</li></a>
+                    <a (click)="menu()" href="#skills-link"><li class="link2">Taidot</li></a>
+                    <a (click)="menu()" href="#cv-link"><li class="link2">CV</li></a>
+                    <a (click)="menu()" href="#interests-link"><li class="link2">Kiinnostukset</li></a>
+                    <a (click)="menu()" href="#contact-link"><li class="link2">Yhteys</li></a>
+            </ul>
+
+    </nav>
 
 <router-outlet></router-outlet>

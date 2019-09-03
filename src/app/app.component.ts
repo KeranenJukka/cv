@@ -120,6 +120,8 @@ export class AppComponent {
 
     document.addEventListener("mousemove", function (e) {
 
+       
+
         var circle = document.getElementById("circle");
   
         var mouseX = e.clientX;

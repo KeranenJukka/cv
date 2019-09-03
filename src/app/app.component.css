@@ -175,6 +175,9 @@
   #myname {
     display: none;
   }
+  #circle {
+    display: none;
+  }
 }
 @media (max-width: 750px) {
   #mobilemenu ul li {

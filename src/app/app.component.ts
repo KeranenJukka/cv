@@ -73,7 +73,7 @@ export class AppComponent {
 
       var root = document.body;
 
-      if (window.pageYOffset > 0 && window.pageYOffset < document.getElementById("mewrap").offsetTop ) {
+      if (window.pageYOffset >= 0 && window.pageYOffset < document.getElementById("mewrap").offsetTop ) {
         this.current = "JK";
         root.style.setProperty('--color1', "#2c2a2a");
         root.style.setProperty('--color2', "#f94444");

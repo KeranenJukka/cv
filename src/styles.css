@@ -6,9 +6,11 @@ body {
   padding: 0;
   --color1: #2c2a2a;
   --color2: #f94444;
+  --color3: #929786;
   background: var(--color1);
   font-family: "Roboto", sans-serif;
   transition: background-color 2s;
+  -webkit-font-smoothing: antialiased;
 }
 h1,
 h2,

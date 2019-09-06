@@ -11,6 +11,7 @@ body {
     --color1: #2c2a2a;
     --color2: #f94444;
 
+    --color3: #929786;
 
 
     background: var(--color1);
@@ -19,7 +20,7 @@ body {
 
     transition: background-color 2s;
 
-
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3 {

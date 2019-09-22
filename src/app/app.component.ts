@@ -70,7 +70,7 @@ export class AppComponent {
       else {
         TweenMax.to(links, 0.2, {opacity: 1});
       }
-
+      
       var root = document.body;
 
       if (window.pageYOffset >= 0 && window.pageYOffset < document.getElementById("mewrap").offsetTop ) {
